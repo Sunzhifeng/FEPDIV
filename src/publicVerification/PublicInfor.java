@@ -14,10 +14,10 @@ import file.FileOperation;
 
 public class PublicInfor {
 	public static final String FILECONFIG="fileconfig.properties";
-	public static final String PUBLIC="public";
+	public static final String PUBLIC="public";//存放公开信息的数据表
 	public static final int K=1024;
 	public static final boolean USEPBC=false;
-	public static final String CURVEPATH="pairing/d/d_159.properties";
+	public static final String CURVEPATH="d_159.properties";
 	public Pairing pairing;
 	public  Element g1;
 	public  Element g2;	

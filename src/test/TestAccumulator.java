@@ -11,7 +11,7 @@ import tool.Stopwatch;
  * @version 1.0
  * @date 2014.12.22
  */
-public class Test2 {
+public class TestAccumulator {
 	public static void main(String[] args) throws Exception {
 		Accumulator averDoTime = new Accumulator();
 		//Accumulator averIHTTime = new Accumulator();

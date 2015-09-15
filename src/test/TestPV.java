@@ -30,14 +30,11 @@ import publicVerification.Verifier.Chal;
  * @date  2015.6.5
  * 
  */
-public class PADD {
-	public static final String FILECONFIG="fileconfig.properties";
-	public static final String PUBLIC="public";
-	public static final String FILETAG="filetag";
-	
+public class TestPV {
+		
 	public static void main(String[] args) throws IOException {
 		
-		int n=512;//总块数
+		int n=1024;//总块数
 		int c=100;//挑战块数
 		
 		//校验者

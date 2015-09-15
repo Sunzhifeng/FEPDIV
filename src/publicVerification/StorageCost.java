@@ -61,8 +61,6 @@ public class StorageCost {
 		return DataFilter.roundDouble(result/K,2);
 	}
 
-
-
 	public static void main(String[] args) {
 
 		//文件大小为2M

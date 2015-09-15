@@ -296,7 +296,8 @@ public class FileOperation {
 	 */
 	public static void genRandomFile( String filePath,int fileSzieM) throws IOException{
 		String str = "0123456789vasdjhklsadfqwiurewopt"; //自己补全字母和数字,这个字符数是作为随机取值的源
-		PrintWriter pw = new PrintWriter(new FileWriter(filePath));
+		File file=new File(filePath);
+		PrintWriter pw = new PrintWriter(new FileWriter(file));
 		int len = str.length();		
 		for (int i = 0; i < K; i++)
 		{
